@@ -98,8 +98,8 @@ app.post('/payment', async (req, resp) => {
         payment_method_types: ['card'],
         line_items: line_items,
         mode: 'payment',
-        success_url: process.env.SUCCESS_URL,
-        cancel_url: process.env.CANCEL_URL,
+        success_url: "https://flipkart-green.vercel.app/success",
+        cancel_url:"https://flipkart-green.vercel.app/cancel",
         metadata:{shippingInfo},
         shipping_options:[
             {
