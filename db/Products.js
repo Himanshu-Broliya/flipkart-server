@@ -14,7 +14,9 @@ const ProductSchema = mongoose.Schema({
     quantity:Number,
     description:String,
     discount:String,
-    tagline:String
+    tagline:String,
+    category:String,
+    specifications:Object
 })
 
 module.exports = mongoose.model('products',ProductSchema);

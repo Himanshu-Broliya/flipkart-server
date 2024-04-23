@@ -1,184 +1,198 @@
 const m = [
     { 
         id: 'product1',
-        url: 'https://rukminim2.flixcart.com/image/312/312/xif0q/mobile/k/l/l/-original-imagtc5fz9spysyk.jpeg?q=70', 
-        detailUrl: 'https://rukminim1.flixcart.com/image/416/416/kapoo7k0/electric-kettle/p/6/s/pigeon-favourite-original-imafs7xhj5uwgrh4.jpeg?q=70',
+        url: 'https://static-assets-web.flixcart.com/www/linchpin/batman-returns/images/fk-default-image-75ff340b.png?q=90', 
+        detailUrl: 'https://rukminim2.flixcart.com/image/416/416/ktop5e80/tablet/s/l/b/mk2k3hn-a-apple-original-imag6yy7wn9are6s.jpeg?q=70&crop=false',
         title: {
-            shortTitle: 'Apple iPhone 15',
-            longTitle: 'Apple iPhone 15 (Blue, 128 GB)'
+            shortTitle: 'Apple iPad 9th Gen',
+            longTitle: 'Apple iPad (9th Gen) 64 GB ROM 10.2 inch with Wi-Fi Only (Space Grey)'
         }, 
         price: {
-            mrp: 72999,
-            cost: 60000,
-            discount: '8%'
+            mrp: 32900,
+            cost: 30400,
+            discount: '7%'
         },
         quantity: 1,
-        description: 'Experience the iPhone 15 – your dynamic companion. Dynamic Island ensures you stay connected, bubbling up alerts seamlessly while you are busy.',
-        discount: 'Extra 8% Off', 
-        tagline: 'Best selling SmartPhone' 
+        description: 'N/A',
+        discount: 'Extra 7% Off', 
+        tagline: 'Top Deals' ,
+        category:"Mobile"
     },
 
     { 
         id: 'product2',
-        url: 'https://rukminim2.flixcart.com/image/312/312/xif0q/mobile/x/0/4/-original-imagxaqu3samghjd.jpeg?q=70', 
-        detailUrl: 'https://rukminim1.flixcart.com/image/416/416/kl6wx3k0/sandwich-maker/8/r/d/sandwich-01-flipkart-smartbuy-original-imagydds4zthxt8z.jpeg?q=70',
+        url: 'https://rukminim2.flixcart.com/image/612/612/xif0q/lehenga-choli/i/l/a/free-3-4-sleeve-joya-889-1-carat-fashion-original-imagyk7wep5dgykf.jpeg?q=70', 
+        detailUrl: 'https://rukminim2.flixcart.com/image/832/832/xif0q/lehenga-choli/i/l/a/free-3-4-sleeve-joya-889-1-carat-fashion-original-imagyk7wep5dgykf.jpeg?q=70&crop=false',
         title: {
-            shortTitle: 'REDMI 12 5G',
-            longTitle: 'REDMI 12 5G (Pastel Blue, 128 GB)  (6 GB RAM)'
+            shortTitle: 'Lehenga Choli',
+            longTitle: 'Embellished Semi Stitched Lehenga Choli  (Multicolor)'
         },
         price: {
-            mrp: 12999,
-            cost: 899,
-            discount: '27%'
+            mrp: 1599,
+            cost: 474,
+            discount: '70%'
         },
         quantity: 1,
-        description: 'Redmi 12 5G mobile comes with a 90 Hz refresh rate 6.79-inch touchscreen display offering a resolution of 2460x1080 pixels (FHD+). The display sports Gorilla Glass for protection. Redmi 12 5G is powered by an octa-core Qualcomm Snapdragon 4 Gen 2 processor.',
-        discount: '27% Off', 
-        tagline: 'Best selling SmartPhone' 
+        description: 'N/A',
+        discount: '70% Off', 
+        tagline: 'Lenenga Choli' ,
+        category:"Fashion"
     },
     { 
         id: 'product3',
-        url: 'https://rukminim2.flixcart.com/image/312/312/xif0q/mobile/g/t/u/-original-imagxhd5xtjuwnqz.jpeg?q=70', 
-        detailUrl: 'https://rukminim1.flixcart.com/image/416/416/kohigsw0/resistance-tube/c/s/e/new-adjustable-single-resistance-tube-multicolor-na-ajro-deal-original-imag2xg88mhmwxz5.jpeg?q=70', 
+        url: 'https://rukminim2.flixcart.com/image/612/612/xif0q/lehenga-choli/n/g/i/free-sleeveless-fp-lc44-f-plus-fashion-original-imagzghqhdzcsefn.jpeg?q=70', 
+        detailUrl: 'https://rukminim2.flixcart.com/image/832/832/xif0q/lehenga-choli/p/g/l/free-sleeveless-fp-lc44-f-plus-fashion-original-imagzghqxtqeraw9.jpeg?q=70&crop=false', 
         title: {
-            shortTitle: 'realme 12 Pro+ 5G',
-            longTitle: 'realme 12 Pro+ 5G (Navigator Beige, 256 GB)  (12 GB RAM)'
+            shortTitle: 'Lehenga Choli  (Blue)',
+            longTitle: 'Printed Semi Stitched Lehenga Choli  (Blue)'
         }, 
         price: {
-            mrp: 33999,
-            cost: 166,
-            discount: '10%'
+            mrp: 999,
+            cost: 598,
+            discount: '40%'
         },
         quantity: 1,
-        description: "In a world where innovation reigns supreme, the realme 12 Pro+ 5G stands tall as a beacon of superior technology and design. Elevate your mobile experience, capture moments with unprecedented clarity, and stay connected with seamless performance. Behold this realme smartphone – where every feature is a testament to a commitment to pushing the boundaries of what's possible in a smartphone.",
-        discount: 'Upto 10% Off', 
-        tagline: 'Just Here' 
+        description: "N/A",
+        discount: 'Upto 40% Off', 
+        tagline: 'Just Here',
+        category:"Fashion"
+
     },
     { 
         id: 'product4',
-        url: 'https://rukminim2.flixcart.com/image/312/312/xif0q/mobile/3/5/l/-original-imaghx9qmgqsk9s4.jpeg?q=70', 
-        detailUrl: 'https://rukminim1.flixcart.com/image/416/416/kll7bm80/smartwatch/c/1/n/43-mo-sw-sense-500-android-ios-molife-original-imagyzyycnpujyjh.jpeg?q=70',
+        url: 'https://rukminim2.flixcart.com/image/612/612/xif0q/lehenga-choli/b/b/v/free-full-sleeve-lehenga-lehenga-for-women-lehenga-choli-net-original-imaggcwfkuev5jm8.jpeg?q=70', 
+        detailUrl: 'https://rukminim2.flixcart.com/image/832/832/xif0q/lehenga-choli/x/g/9/free-full-sleeve-lehenga-lehenga-for-women-lehenga-choli-net-original-imaggcwfgeqmhtxz.jpeg?q=70&crop=false',
         title: {
-            shortTitle: 'Apple iPhone 14',
-            longTitle: 'Apple iPhone 14 (Blue, 128 GB)',
+            shortTitle: 'Semi Stitched Lehenga Choli',
+            longTitle: 'Embroidered Semi Stitched Lehenga Choli  (Purple)',
         }, 
         price: {
-            mrp: 58999,
-            cost: 4049,
-            discount: '15%'
+            mrp: 3499,
+            cost: 559,
+            discount: '84%'
         },
         quantity: 1,
-        description: 'Stay productive and improve your performance with the Super Retina XDR display that is comfortable for the eyes. Powered with a 12 MP main camera, enjoy taking pictures with friends and family. With a built-in rechargeable lithium-ion battery and equipped with the MagSafe wireless charging, you can charge your phone quickly up to 50 % in just half an hour by using a 20 W adapter. This phone is loaded with a horde of exciting features such as Siri, face ID, barometer, ambient light sensors etc., and is also resistant to dust and water as it is IP68 rated.',
-        discount: 'Extra 15% off', 
-        tagline: 'Best Seller' 
+        description: 'Lovely Embroidered Pattern Crafted with a beautiful and eye-catching embroidered design, the Cute Fellow Women’s Embroidered Semi-stitched Lehenga, Choli, and Dupatta Set adds charm to your festive look. So, you can wear this set for weddings, festivals, and for other functions. Designed with a round neck and long sleeves, this set adds a sophisticated and charming touch to your appearance.',
+        discount: 'Extra 84% off', 
+        tagline: 'Best Seller' ,
+        category:"Fashion"
+
     },
     { 
         id: 'product5',
-        url: 'https://rukminim2.flixcart.com/image/312/312/xif0q/mobile/y/q/t/galaxy-s23-fe-sm-s711bzabins-samsung-original-imagw6yhxqqkcqzh.jpeg?q=70',
-        detailUrl: 'https://rukminim1.flixcart.com/image/416/416/k3uhhu80/hair-dryer/n/m/t/nova-2800-w-professional-nhp-8220-original-imafmvwfhmzsxdrw.jpeg?q=70', 
+        url: 'https://rukminim2.flixcart.com/image/612/612/kufuikw0/lehenga-choli/m/j/c/free-full-sleeve-anokhi-purple-r-h-comapany-original-imag7kcxnbqkpyhy.jpeg?q=70',
+        detailUrl: 'https://rukminim2.flixcart.com/image/832/832/kufuikw0/lehenga-choli/3/j/h/free-full-sleeve-anokhi-purple-r-h-comapany-original-imag7kcxb7hakedw.jpeg?q=70&crop=false', 
         title: {
-            shortTitle: 'SAMSUNG Galaxy S23',
-            longTitle: 'SAMSUNG Galaxy S23 FE (Graphite, 128 GB)  (8 GB RAM)'
+            shortTitle: 'Lehenga Choli  (Yellow)',
+            longTitle: 'Checkered Semi Stitched Lehenga Choli  (Yellow)'
         }, 
         price: {
-            mrp: 54999,
-            cost: 1124,
-            discount: '31%'
+            mrp: 999,
+            cost: 300,
+            discount: '69%'
         },
         quantity: 1,
-        description: 'The Galaxy S23 FE takes after the iconic design of Galaxy S23 Series, adopting its classic aesthetic and many of the practical features.',
-        discount: 'Grab 31% off', 
-        tagline: 'Just Here' 
+        description: 'N/A',
+        discount: 'Grab 69% off', 
+        tagline: 'Just Here' ,
+        category:"Fashion"
+
     },
     { 
         id: 'product6',
         url: 'https://rukminim2.flixcart.com/image/312/312/xif0q/mobile/j/q/2/edge-40-neo-payj0001in-motorola-original-imagtkf5ewhafvhh.jpeg?q=70',
-        detailUrl: 'https://rukminim1.flixcart.com/image/416/416/kk01pjk0/fan/d/d/l/tiktik-quiet-portable-table-fan-zigma-original-imafzg7ftzuckpad.jpeg?q=70', 
+        detailUrl: 'https://rukminim2.flixcart.com/image/416/416/xif0q/projector/d/d/c/zeb-pixaplay-22-green-16-zeb-pixaplay-22-green-led-zebronics-original-imagpqgabrrbsugz.jpeg?q=70&crop=false', 
         title: {
-            shortTitle: 'Motorola Edge 40 Neo',
-            longTitle: 'Motorola Edge 40 Neo (Soothing Sea, 128 GB)  (8 GB RAM)'
+            shortTitle: 'ZEBRONICS PIXAPLAY',
+            longTitle: 'ZEBRONICS PIXAPLAY 22 (3200 lm) Portable with Electronic Focus, Multi Connectivity & Supported Formats, In-built Speaker, Dual Band Connectivity, Cotton Swab Pack , Stunning 720p HD Smart Projector  (Green)'
         }, 
         price: {
-            mrp: 22999,
-            cost: 1199,
-            discount: '17%'
+            mrp: 37999,
+            cost: 12999,
+            discount: '65%'
         },
         quantity: 1,
-        description: "In a world where innovation meets style and sustainability, the Motorola Edge 40 Neo stands out. Elevate your mobile experience with a device that's designed to keep up with your lifestyle. It's more than a phone; it's a statement. Choose the future – choose the Motorola Edge 40 Neo.",
-        discount: 'Minimum 17% Off', 
-        tagline: 'Top Selling' 
+        description: "The Zebronics ZEB-PIXAPLAY 22 projector is an innovative projector with an in-built speaker. This portable speaker is powered by a quad-core processor with a long-lasting 30000 hours LED. It offers dual band connectivity which supports 2.4 GHz and 5 GHz. With a whopping 406 cm (159.84) large display, this projector ensures that you enjoy an immersive visual experience. The 1080 P FHD display provides crystal clear clarity for every visual and brings them to life. You can easily cast the screen from any device using this projector to set up your own home theatre. You can connect USB, HDMI, and AUX to access unlimited entertainment to enjoy with your friends and family.",
+        discount: 'Minimum 65% Off', 
+        tagline: 'Top Selling',
+        category:"electronic" 
     },
     { 
         id: 'product7',
-        url: 'https://rukminim2.flixcart.com/image/312/312/xif0q/mobile/l/v/b/-original-imagytcpqznwrvse.jpeg?q=70',
-        detailUrl: 'https://rukminim1.flixcart.com/image/416/416/kcgk1ow0/headphone/n/u/a/235v2-fast-charging-boat-original-imaftk6us4af7bca.jpeg?q=70', 
+        url: 'https://rukminim2.flixcart.com/image/312/312/xif0q/monitor/w/g/l/-original-imagwmfcskgf7jj9.jpeg?q=70',
+        detailUrl: 'https://rukminim2.flixcart.com/image/416/416/xif0q/monitor/2/s/j/-original-imagwmfcgppergxk.jpeg?q=70&crop=false', 
         title: {
-            shortTitle: 'POCO M6 5G ',
-            longTitle: 'POCO M6 5G (Orion Blue, 128 GB)  (6 GB RAM)'
+            shortTitle: 'ViewSonic Monitor',
+            longTitle: 'ViewSonic 27 inch Quad HD IPS Panel with HDR10, 137 sRGB, Height Adjustment, Swivel, Tilt, Pivot, Eye Care, 2 x HDMI, Display Port Gaming Monitor (VX2758A-2K-PRO-2)  (AMD Free Sync, Response Time: 1 ms, 170 Hz Refresh Rate)'
         }, 
         price: {
-            mrp: 10499,
-            cost: 1199,
-            discount: '25%'
+            mrp: 27990,
+            cost: 19499,
+            discount: '30%'
         },
         quantity: 1,
-        description: 'Welcome to the future of smartphones – the POCO M6 5G, where innovation meets elegance, power, and speed. The POCO M6 5G is a statement of technological prowess, design excellence, and user-centric innovation. Embrace the future with a device that combines speed, storage, stunning visuals, and top-notch security. Elevate your mobile experience with the POCO M6 – where every feature is a testament to a new era in smartphone excellence.',
+        description: 'ViewSonic Omni 27 Inch 170Hz IPS QHD 2K 2560x1440 Pixels Gaming Monitor, 1ms, HDR10, FreeSync ,137 sRGB, Height Adjustment, Swivel, Tilt, Pivot, Eye Care, 2 x HDMI, Display Port,- VX2758A-2K-PRO-2',
         discount: 'Minimum 25% Off', 
-        tagline: 'Grab Now!' 
+        tagline: 'Grab Now!',
+        category:"electronic" 
     },
     { 
         id: 'product8',
-        url: 'https://rukminim2.flixcart.com/image/312/312/xif0q/mobile/t/s/y/narzo-60-5g-rmx3750-realme-original-imagrht2yzyc2jyj.jpeg?q=70', 
-        detailUrl: 'https://rukminim1.flixcart.com/image/416/416/kapoo7k0/electric-kettle/p/6/s/pigeon-favourite-original-imafs7xhj5uwgrh4.jpeg?q=70',
+        url: 'https://rukminim2.flixcart.com/image/612/612/xif0q/cycle/k/u/j/drift-24t-bicycle-big-kids-boys-girls-9-to-15-age-24-16-vesco-68-original-imagmgwbffrxtfbs.jpeg?q=70', 
+        detailUrl: 'https://rukminim2.flixcart.com/image/416/416/xif0q/cycle/l/s/0/drift-24t-bicycle-big-kids-boys-girls-9-to-15-age-24-16-vesco-68-original-imagwtfearnpunyd.jpeg?q=70&crop=false',
         title: {
-            shortTitle: 'realme Narzo 60 5G',
-            longTitle: 'realme Narzo 60 5G (Cosmic Black, 128 GB)  (8 GB RAM)'
+            shortTitle: 'VESCO Drift 24T Bicycle',
+            longTitle: 'VESCO Drift 24T Bicycle Big Kids Boys & Girls 9 to 15 age 24 T Mountain Cycle  (Single Speed, Grey)'
         }, 
         price: {
-            mrp: 15839,
-            cost: 625,
-            discount: '20%'
+            mrp: 10599,
+            cost: 5199,
+            discount: '50%'
         },
         quantity: 1,
-        description: '',
-        discount: 'Extra 20% Off', 
-        tagline: 'Deal of the day' 
+        description: 'VESCO CYCLES Launched Every Time User Friendly Bicycles with Attractively Priced & Extremely Good Looking and High Quality Cycles for Kids (Boys & Girls) and Adults (Men & Women). Our Vision is Bikes are made with the Sole Objective of Providing a Safe, Comfortable & Stylish ride to the all users. VESCO CYCLES are Proudly Made in India. Cycles are Attractive Sporty Frame Design For Durability And Safety. Side Handle Bar Ends For Safety And Protecting The Cycle When It Falls Down, Wide And Anti Skid Pedals For Better And Firm Grip Of The Footwear. P.U Foam Saddle With Spring For Extra Comfort And Cushioning.',
+        discount: 'Extra 50% Off', 
+        tagline: 'Deal of the day' ,
+        category:"Toy and More"
     },
     { 
         id: 'product9',
-        url: 'https://rukminim2.flixcart.com/image/312/312/xif0q/mobile/a/o/z/nord-ce-3-lite-5g-ce2099-oneplus-original-imagzj3wqxzgquah.jpeg?q=70', 
-        detailUrl: 'https://rukminim1.flixcart.com/image/416/416/kl6wx3k0/sandwich-maker/8/r/d/sandwich-01-flipkart-smartbuy-original-imagydds4zthxt8z.jpeg?q=70',
+        url: 'https://rukminim2.flixcart.com/image/612/612/xif0q/headphone/v/f/m/-original-imagz5z4cknamu9d.jpeg?q=70', 
+        detailUrl: 'https://rukminim2.flixcart.com/image/416/416/xif0q/headphone/e/7/c/-original-imagzbdjfx89zpsq.jpeg?q=70&crop=false',
         title: {
-            shortTitle: 'OnePlus Nord CE 3 Lite 5G',
-            longTitle: 'OnePlus Nord CE 3 Lite 5G (Pastel Lime, 256 GB)  (8 GB RAM)'
+            shortTitle: 'boAt Airdopes Supreme',
+            longTitle: 'boAt Airdopes Supreme w/ 4 Mics AI ENx Tech, 50 HRS Playback,Multi Point Connectivity Bluetooth Headset  (Classic Black, True Wireless)'
         },
         price: {
-            mrp: 19957,
-            cost: 899,
-            discount: '9%'
+            mrp: 5990,
+            cost: 1499,
+            discount: '74%'
         },
         quantity: 1,
-        description: 'N/A',
-        discount: 'From 9% Off', 
-        tagline: 'Never  Settle' 
+        description: "Transcend audio chaos and enter the spatial realm with boAt Airdopes Supreme TWS Earbuds. Feel the sound envelop you from all directions, powered by 24-bit audio processing. Airdopes Supreme's spectacular surround sound fills the void for truly immersive listening, and you can enjoy it without interruptions as these earbuds boast a massive 50 hours of playtime. In addition, quad mics with advanced noise cancellation tackle pesky background sounds using Artificial Intelligence, AI-ENx, to deliver supremely thumping audio devoid of clutter. Simply pop in your Airdopes to start grooving as these earbuds feature seamless in-ear detection for a smooth audio hustle. Whether you want to juggle calls on multiple devices or tick off watchlists and work tasks, these earbuds have got your back. Connect to two devices and breeze through your schedule with multipoint connectivity. Not just streaming, you can even make a mark in the gaming arena with the 65 ms low latency of BEAST mode that syncs your moves with the sound for a befitting win. Airdopes Supreme is compatible with the boAt Hearables app giving you complete control with touch customization and a multitude of functions. For added playback boost, just charge these earbuds for 10 minutes and enjoy your gaming, listening to your playlist, and watching the latest OTT series for almost 150 minutes. Elevate your listening with the innovative boAt Airdopes Supreme!",
+
+        discount: 'From 74% Off', 
+        tagline: 'boAt is here',
+        category:"electronic" 
     },
     { 
         id: 'product10',
-        url: 'https://rukminim2.flixcart.com/image/312/312/xif0q/mobile/6/x/2/-original-imagz6tzewyqpgtz.jpeg?q=70', 
-        detailUrl: 'https://rukminim1.flixcart.com/image/416/416/kohigsw0/resistance-tube/c/s/e/new-adjustable-single-resistance-tube-multicolor-na-ajro-deal-original-imag2xg88mhmwxz5.jpeg?q=70', 
+        url: 'https://rukminim2.flixcart.com/image/612/612/xif0q/cupboard-almirah/e/r/8/-original-imagzzeyzevtv6s2.jpeg?q=70', 
+        detailUrl: 'https://rukminim2.flixcart.com/image/416/416/xif0q/cupboard-almirah/l/b/s/-original-imagt4zgwkdyffph.jpeg?q=70&crop=false', 
         title: {
-            shortTitle: 'vivo T3 5G',
-            longTitle: 'vivo T3 5G (Crystal Flake, 256 GB)  (8 GB RAM)'
+            shortTitle: 'Godrej Almirah',
+            longTitle: 'Godrej Interio Neolite Metal Almirah  (Finish Color - Denim Blue, Knock Down)'
         }, 
         price: {
-            mrp: 21999,
-            cost: 166,
-            discount: '12%'
+            mrp: 40644,
+            cost: 31790,
+            discount: '21%'
         },
         quantity: 1,
-        description: "The Vivo T3 5G: the pinnacle of speed, innovation, and creativity. Powered by the MediaTek Dimensity 7200 chip, it's a fast smartphone, scoring 734+ on AnTuTu. With the segment's first Sony IMX882 OIS sensor, clear shots are guaranteed, even in low light. Immerse yourself in the 16.94 cm (6.67) 120 Hz Ultra Vision AMOLED display, unlocking a cinematic experience. Dual stereo speakers and a 5000 mAh battery with 44 W FlashCharge ensure an immersive audiovisual journey that lasts. Capture every moment with ultra-stable 4K video and super night portrait mode. Plus, enjoy seamless multitasking with 8 GB RAM and memory booster features. Elevate your mobile experience with the Vivo T3 5G, where speed meets innovation.",
-        discount: 'Upto 15% Off', 
-        tagline: 'Vivo is here!' 
+        description: "The Godrej Interio Neolite Metal Almirah transcends the concept of mere storage and becomes a statement of elegance and efficiency. With its versatile vertical and horizontal storage, welded knock-down construction, convenient hanging rod and locker, slam-shut locking mechanism, and leveler support, this almirah is more than just furniture – it's a lifestyle upgrade. Elevate your organization game and transform your space with the Neolite Metal Almirah, where style and function come together in perfect harmony. Choose Godrej Interio, and experience a new era of storage that's tailored to your needs and designed for the modern world.",
+        discount: 'Upto 21% Off', 
+        tagline: 'Godrej ',
+        category: "Home & Furniture" 
     },
 ]
 
