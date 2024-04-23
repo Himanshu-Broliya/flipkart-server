@@ -192,7 +192,7 @@ const m = [
         description: "The Godrej Interio Neolite Metal Almirah transcends the concept of mere storage and becomes a statement of elegance and efficiency. With its versatile vertical and horizontal storage, welded knock-down construction, convenient hanging rod and locker, slam-shut locking mechanism, and leveler support, this almirah is more than just furniture – it's a lifestyle upgrade. Elevate your organization game and transform your space with the Neolite Metal Almirah, where style and function come together in perfect harmony. Choose Godrej Interio, and experience a new era of storage that's tailored to your needs and designed for the modern world.",
         discount: 'Upto 21% Off', 
         tagline: 'Godrej ',
-        category: "Home & Furniture" 
+        category: "Home & Furnitures " 
     },
 ]
 
